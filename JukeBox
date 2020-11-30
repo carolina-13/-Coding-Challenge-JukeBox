@@ -1,0 +1,23 @@
+import random
+
+print("***JUKEBOX***")
+print("Songs:Bright,Heart of Glass,Ramble On,Gloomy Sunday,Amore mio aiutami")
+
+playList = ["Bright","Heart of Glass", "Ramble On","Gloomy Sunday","Amore mio aiutami"]
+
+running = True
+while(running):
+  userInput = input("Give me a song >> ")
+  
+  if userInput == "Bright":
+    print("Now Playing!" + userInput)
+  if userInput == "Heart of Glass":
+    print("Now Playing!" + userInput)
+  if userInput == "Ramble On":
+    print("Now Playing!" + userInput)
+  if userInput == "Gloomy Sunday":
+    print("Now Playing!" + userInput)
+  if userInput == "Amore mio aiutami":
+    print("Now Playing!" + userInput)
+  else:
+    print("That song is not on the list. Try again!")
